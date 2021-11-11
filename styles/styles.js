@@ -1,11 +1,25 @@
 import { StyleSheet } from "react-native";
 import styled from "styled-components/native"
 
+export const BodyApp = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+`;
+
 export const Body = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: red;
+`;
+
+export const BodyDog = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
 `;
 
 export const Text20 = styled.Text`
@@ -23,7 +37,7 @@ export const DogImage = styled.Image`
   box-shadow: 5px 5px 15px white;
 `;
 
-export default StyleSheet.create({
+/* export default StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -49,4 +63,4 @@ export default StyleSheet.create({
 
     elevation: 24,
   }
-});
+}); */
